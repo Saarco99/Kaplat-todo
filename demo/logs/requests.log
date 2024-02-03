@@ -1,0 +1,16 @@
+16-05-2023 18:10:23.842 INFO: Incoming request | #1 | resource: /todo | HTTP Verb POST | request #1
+16-05-2023 18:10:23.994 INFO: Incoming request | #2 | resource: /todo/size | HTTP Verb GET | request #2
+16-05-2023 18:10:24.088 INFO: Incoming request | #2 | resource: /todo/content | HTTP Verb GET | request #2
+16-05-2023 18:10:24.184 INFO: Incoming request | #3 | resource: /todo | HTTP Verb PUT | request #3
+16-05-2023 18:12:28.598 INFO: Incoming request | #1 | resource: /todo | HTTP Verb POST | request #1
+16-05-2023 18:12:28.737 INFO: Incoming request | #2 | resource: /todo/size | HTTP Verb GET | request #2
+16-05-2023 18:12:28.831 INFO: Incoming request | #2 | resource: /todo/content | HTTP Verb GET | request #2
+16-05-2023 18:12:28.927 INFO: Incoming request | #3 | resource: /todo | HTTP Verb PUT | request #3
+16-05-2023 18:12:29.060 INFO: Incoming request | #3 | resource: /logs/level | HTTP Verb PUT | request #3
+16-05-2023 18:12:29.149 INFO: Incoming request | #4 | resource: /todo | HTTP Verb POST | request #4
+16-05-2023 18:12:29.211 INFO: Incoming request | #5 | resource: /todo/size | HTTP Verb GET | request #5
+16-05-2023 18:12:29.289 INFO: Incoming request | #5 | resource: /todo | HTTP Verb DELETE | request #5
+16-05-2023 18:12:29.368 INFO: Incoming request | #6 | resource: /todo | HTTP Verb PUT | request #6
+19-01-2024 16:15:26.431 INFO: Incoming request | #1 | resource: /todo/health | HTTP Verb GET | request #1
+19-01-2024 16:15:30.351 INFO: Incoming request | #2 | resource: /todo/health | HTTP Verb GET | request #2
+19-01-2024 16:15:37.855 INFO: Incoming request | #3 | resource: /todo/health | HTTP Verb GET | request #3

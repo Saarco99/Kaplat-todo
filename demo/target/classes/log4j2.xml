@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd-MM-yyyy HH:mm:ss.SSS} %level: %msg | request #%X{requestNumber}%n"/>
+        </Console>
+        <File name="requestsLog" fileName="logs/requests.log">
+            <PatternLayout pattern="%d{dd-MM-yyyy HH:mm:ss.SSS} %level: %msg | request #%X{requestNumber}%n"/>
+        </File>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd-MM-yyyy HH:mm:ss.SSS} %level: %msg | request #%X{requestNumber}%n"/>
+        </Console>
+        <Async name="requestsAppender">
+            <AppenderRef ref="requestsLog"/>
+            <AppenderRef ref="console"/>
+        </Async>
+        <File name="todosLog" fileName="logs/todos.log">
+                <PatternLayout pattern="%d{dd-MM-yyyy HH:mm:ss.SSS} %level: %msg | request #%X{requestNumber}%n"/>
+        </File>
+        <Async name="todosAppender">
+            <AppenderRef ref="todosLog"/>
+        </Async>
+    </Appenders>
+    <Loggers>
+        <Root level="ERROR">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <Logger name="request-logger" level="INFO">
+            <AppenderRef ref="requestsAppender"/>
+        </Logger>
+        <Logger name="todo-logger" level="INFO">
+            <AppenderRef ref="todosAppender"/>
+        </Logger>
+    </Loggers>
+</Configuration>

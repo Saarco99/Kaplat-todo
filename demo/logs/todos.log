@@ -1,0 +1,15 @@
+
+16-05-2023 18:10:23.852 INFO: Creating new TODO with Title [New Year] | request #1
+16-05-2023 18:10:23.997 INFO: Total TODOs count for state ALL is 0 | request #2
+16-05-2023 18:10:24.089 INFO: Extracting todos content. Filter: PENDING | Sorting by: TITLE | request #2
+16-05-2023 18:10:34.946 INFO: Update TODO id [5] state to DONE | request #3
+16-05-2023 18:12:28.608 INFO: Creating new TODO with Title [New Year] | request #1
+16-05-2023 18:12:28.739 INFO: Total TODOs count for state ALL is 0 | request #2
+16-05-2023 18:12:28.832 INFO: Extracting todos content. Filter: PENDING | Sorting by: TITLE | request #2
+16-05-2023 18:12:28.928 INFO: Update TODO id [5] state to DONE | request #3
+16-05-2023 18:12:29.149 INFO: Creating new TODO with Title [Reception hours for kaplat] | request #4
+16-05-2023 18:12:29.150 DEBUG: Currently there are 1 TODOs in the system. New TODO will be assigned with id 3 | request #4
+16-05-2023 18:12:29.212 INFO: Total TODOs count for state PENDING is 2 | request #5
+16-05-2023 18:12:29.289 INFO: Removing todo id 2 | request #5
+16-05-2023 18:12:29.290 DEBUG: After removing todo id [2] there are 1 TODOs in the system | request #5
+16-05-2023 18:12:29.369 INFO: Update TODO id [1] state to LATE | request #6
